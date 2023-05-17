@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/dist/client/image'
+import navbar from '../Styles/navbar.css'
 
 const Navbar = () => {
 
@@ -11,7 +12,7 @@ const Navbar = () => {
 
 			<div className='logo'>
 
-				<Link className='homelink' href='/'>AR</Link>
+				<Link className='homelink' href='/'>CT</Link>
 
 			</div>
 

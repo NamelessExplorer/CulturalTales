@@ -1,0 +1,54 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+navbar {
+    flex-direction: row;
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: transparent;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index:1000;
+    margin-left: -15px;
+}
+
+  .homelink{
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .logo{
+    padding:2%;
+  }
+  
+  .NavLink:hover,.NavLink > .active{
+    color: red;
+  }
+  
+  .home{
+    display: flex;
+    align-items: center;
+  }
+
+  .NavLink{
+    margin-left:3%;
+    margin-right: 3%;
+  }
+
+  .flexbox{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:2%;
+    margin-right: 4%;
+    
+  }
