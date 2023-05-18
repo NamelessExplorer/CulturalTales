@@ -6,9 +6,19 @@ import navbar from '../Styles/navbar.css'
 const Navbar = () => {
 
 
+	function ul(index) {
+		console.log('click!' + index)
+		
+		var underlines = document.querySelectorAll(".underline");
+	
+		for (var i = 0; i < underlines.length; i++) {
+			underlines[i].style.transform = 'translate3d(' + index * 100 + '%,0,0)';
+		}
+	}
+
 	return (
 
-		<div className='navbar'>
+		<div className='navbar row'>
 
 			<div className='logo'>
 

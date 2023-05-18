@@ -6,6 +6,7 @@
 
 navbar {
     flex-direction: row;
+    color:white;
 
 }
 
@@ -24,6 +25,8 @@ navbar {
   .homelink{
     font-size: 2.5rem;
     font-weight: 600;
+    text-decoration: none;
+    color: black;
   }
   
   .logo{
@@ -32,6 +35,7 @@ navbar {
   
   .NavLink:hover,.NavLink > .active{
     color: red;
+    text-decoration: none;
   }
   
   .home{
@@ -42,6 +46,8 @@ navbar {
   .NavLink{
     margin-left:3%;
     margin-right: 3%;
+    text-decoration: none;
+    color: black;
   }
 
   .flexbox{
